@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="css/main.css">
+    <title>Anagram Validator</title>
+</head>
+
+<body onload="Checkstorage();">
+    <div class="form_lo">
+        <h1>Anagram Validator</h1>
+        <p>
+            An anagram is a word or phrase formed by rearranging the letters of another word or phrase, typically using all the original letters exactly once. <br />
+            For example, the word <strong>binary</strong> is an anagram of <strong>brainy</strong>
+        </p>
+        <div class="form">
+            <p><span class="label">1st Word/Phrase:</span> <input type="text" class="box" id="fir_word" /></p>
+            <p><span class="label">2nd Word/Phrase:</span><input type="text" class="box" id="sec_word" /></p>
+            <p><button type="button" onclick="ValidateValue()">Is Anagram</button></p>
+        </div>
+        <table class="results_tbl">
+            <tr>
+                <th class="headings"></th>
+                <th>1st Word/Phrase</th>
+                <th>2nd Word/Phrase</th>
+            </tr>
+        </table>
+        <table class="antop" id="Ana">
+            <tr>
+                <th class="headings" colspan="3">Anagrams</th>
+
+            </tr>
+        </table>
+        <table class="noneantop" id="Nonena">
+            <tr>
+                <th class="headings" colspan="3">None-Anagrams</th>
+            </tr>
+        </table>
+    </div>
+
+    <script type='text/javascript' src='js/main.js'></script>
+</body>
+
+</html>

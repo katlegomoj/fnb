@@ -1,0 +1,68 @@
+﻿/* ==========================================================================
+   Anagram Validator custom styles
+   ========================================================================== */
+
+body {
+    font-family: 'Bangers', Calibri;
+}
+
+.form_lo {
+    margin: 10% 20%;
+    padding: 2% 5%;
+    border: groove 2px;
+    border-radius: 15px;
+}
+
+.label {
+    font-weight: bold;
+    padding-right: 30px;
+}
+
+.results_tbl {
+    width: 100%;
+}
+
+th {
+    border: #ffffff;
+    background-color: #d7d7d8;
+}
+
+.headings {
+    min-width: 55px;
+}
+
+.antop {
+    width: 100%;
+    text-align: left;
+    color: #ffffff;
+}
+
+.noneantop {
+    width: 100%;
+    text-align: left;
+    color: #ffffff;
+}
+
+#Ana th {
+    background-color: #0f899a;
+    width: 100%;
+}
+
+#Ana td {
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    width: 20%;
+}
+
+#Nonena th {
+    background-color: orangered;
+    width: 100%;
+}
+
+#Nonena td {
+    background-color: #fff;
+    color: #000;
+    text-align: left;
+    width: 20%;
+}
